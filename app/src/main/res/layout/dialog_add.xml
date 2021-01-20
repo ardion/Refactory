@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="20dp"
+    android:elevation="6dp"
+    android:background="@drawable/bg_date_unselected"
+    android:paddingHorizontal="12dp"
+    android:backgroundTint="#FBFCFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:textSize="16dp"
+            android:text="New Task"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="16dp"
+            android:text="Title"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_marginTop="12dp"
+            android:inputType="text"
+            android:hint="Fill title"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/ic_rectangle_506"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="16dp"
+            android:text="Description"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_note"
+            android:layout_marginTop="12dp"
+            android:paddingBottom="120dp"
+            android:hint="Fill description"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/ic_rectangle_507"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:text="Create Task"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_date_unselected"
+            android:backgroundTint="@color/blue_primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
